@@ -1,0 +1,11 @@
+{
+  "firstname" : "noName",
+  "lastname" : "kumarwn",
+  "totalprice" : 121,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-07-29",
+    "checkout" : "2023-07-30"
+  },
+  "additionalneeds" : "break"
+}

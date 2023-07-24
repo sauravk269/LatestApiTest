@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/ApiTestEndToEnd/LatestApiTest">
+        <classes>
+            <class name="eCommerce.Login">
+                <methods>
+                    <include name="LoginToECommerceSite"/>
+                </methods>
+            </class>
+            <class name="eCommerce.GetAllBookDetails">
+                <methods>
+                    <include name="GetAllBookDetails"/>
+                    <include name="getAllResponseHeader"/>
+                </methods>
+            </class><class name="eCommerce.GetCartDetails">
+            <methods><include name="getCartItems"/></methods>
+        </class>
+
+        </classes>
+    </test>
+</suite>
