@@ -14,7 +14,10 @@
                     <include name="getAllResponseHeader"/>
                 </methods>
             </class><class name="eCommerce.GetCartDetails">
-            <methods><include name="getCartItems"/></methods>
+            <methods>
+                <include name="getCartItems"/>
+                <include name="addItemsToCart"/>
+            </methods>
         </class>
 
         </classes>
