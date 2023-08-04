@@ -20,6 +20,6 @@ public class CreateBooking {
         bookingdetails.setBookingdates(date);
         given().baseUri("https://restful-booker.herokuapp.com").body(bookingdetails)
                 .contentType(ContentType.JSON)
-                .when().post("/booking").then().log().all();
+                .when().post("/booking").then().log().all().assertThat().statusCode(200);
     }
 }
