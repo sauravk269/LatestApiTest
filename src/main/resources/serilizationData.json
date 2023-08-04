@@ -1,0 +1,12 @@
+{
+"googleMap":{
+"location":{
+"lat": 38,
+"long":33
+},
+"accuracy": 50,
+"name": "saurav",
+"language":"english",
+"website":"https://demoTest.com",
+"types":["abc","def"]
+}

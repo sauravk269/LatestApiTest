@@ -13,13 +13,18 @@
                     <include name="GetAllBookDetails"/>
                     <include name="getAllResponseHeader"/>
                 </methods>
-            </class><class name="eCommerce.GetCartDetails">
+            </class>
+            <class name="eCommerce.GetCartDetails">
             <methods>
                 <include name="getCartItems"/>
                 <include name="addItemsToCart"/>
             </methods>
         </class>
-
+       <class name="eCommerce.AddItemsToShoppingCart">
+        <methods>
+            <include name="getCartItems"/>
+        </methods>
+    </class>
         </classes>
     </test>
 </suite>

@@ -1,0 +1,42 @@
+{
+  "courseContent":
+  {
+    "instructor": "saurav",
+    "Expertise": "Automation",
+    "linkedin": "https://www.linkedin.com/in/saurav-kumar-aa7211274/",
+    "company": "Accenture Technology solutions",
+    "level": 9,
+    "course":{
+      "webAutomation": [
+        {
+          "courseTitle": "Learn Automation by saurav",
+          "price": 50
+        },
+        {
+          "courseTitle": "Learn Automation by abc",
+          "price": 25
+        }
+      ],
+      "apiAutomation": [
+        {
+          "courseTitle": "Learn Api by Mukesh",
+          "price": 79
+        },
+        {
+          "courseTitle": "Learn Automation by rahul shetty",
+          "price": 25
+        }
+      ],
+      "mobileAutomation": [
+        {
+          "courseTitle": "Learn Mobile Automation by sanjay",
+          "price": 33
+        },
+        {
+          "courseTitle": "Learn Mobile Automation by vijay",
+          "price": 44
+        }
+      ]
+    }
+  }
+}
