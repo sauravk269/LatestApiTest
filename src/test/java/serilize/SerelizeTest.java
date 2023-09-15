@@ -3,8 +3,8 @@ import static io.restassured.RestAssured.*;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-import pojoSerilize.AddPlace;
 import pojoSerilize.AddLocation;
+import pojoSerilize.AddPlace;
 
 import java.util.ArrayList;
 import java.util.List;
