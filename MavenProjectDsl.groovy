@@ -1,7 +1,7 @@
 job('First maven project via dsl'){
     description("first maven job jenerated on ${new Date()}")
     scm{
-        git("https://github.com/sauravk269/LatestApiTest.git",master)
+        git("https://github.com/sauravk269/LatestApiTest.git")
     }
     triggers{
         scm('*****')
