@@ -3,8 +3,8 @@ job('First maven project via dsl'){
     scm{
         git("https://github.com/sauravk269/LatestApiTest.git")
     }
-    triggers{
-        scm('*****')
+    triggers {
+        scm('* * * * *')
     }
     steps{
         maven('clean package','')
