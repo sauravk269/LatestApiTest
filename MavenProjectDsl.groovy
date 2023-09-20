@@ -7,7 +7,7 @@ job('First maven project via dsl'){
         scm('*****')
     }
     steps{
-        maven('clean package')
+        maven('clean package','')
     }
     publishers{
         archiveArtifacts'**/*.jar'
